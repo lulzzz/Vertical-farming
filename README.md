@@ -1,3 +1,3 @@
- Vertical-farming
+# Vertical-farming
 
-Incorporating Machine Learing and Internet of Things in Vertical Farming
+An effort to incorporate Internet of Things(IOT) and Machine Learning in Vertical Farming.
