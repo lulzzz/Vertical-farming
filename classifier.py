@@ -1,6 +1,6 @@
 import re 				# importing regular expression
 
-if __name__ == '__main__':
+if __name__ == '__main__': 		# Defining weights for keywords
 	dict = {"good":1.0, 
 		"great":1.2,
 		"awesome":1.7,
