@@ -2,7 +2,7 @@ import graphlab
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-	nutrient = graphlab.SFrame('nutrient.csv') 	# Loading the light.csv file
+	nutrient = graphlab.SFrame('nutrient.csv') 	# Loading the nutrient.csv file
 	nutrient 									# Display the table
 	graphlab.canvas.set_target('ipynb')		# Set the canvas target to ipython notebook
 	nutrient.show(view="Scatter Plot",x="Potassium",y="Growth rate")
