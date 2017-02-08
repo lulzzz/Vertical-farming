@@ -1,6 +1,8 @@
-import re 				# importing regular expression
+""" Linear Classification """
 
-if __name__ == '__main__': 		# Defining weights for keywords
+if __name__ == '__main__': 	
+	
+	#Defining weights for keywords
 	dict = {"good":1.0, 
 		"great":1.2,
 		"awesome":1.7,
@@ -12,15 +14,15 @@ if __name__ == '__main__': 		# Defining weights for keywords
 	
 	ls =[]	
 	temp = float(0)
-	x = raw_input("Enter the text....  \n")
+	#x = raw_input("Feed the ML FACTS \n")
 	ls =x.split()
 	for i in ls:
 		if i in dict:
 			temp = temp + dict[i]
 			
 	if temp > 0:
-		print "The sentence is positive with total weight ", temp
+		print "Positive"
 	elif(temp==0):
-		print "The sentence is unpredicatble", temp
+		print "Unpredictable"
 	else:
-		print "The sentence is negative with toatl weight", temp
+		print "Negative"
